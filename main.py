@@ -2,8 +2,8 @@ from netCDF4 import Dataset
 from datetime import date, timedelta
 import numpy as np
 
-historical_data_path = r"E:\8_Project\Progress\2019-08-14 Process NetCDF data sets and do some calculations\Data\historical_data"
-projected_data_path = r"E:\8_Project\Progress\2019-08-14 Process NetCDF data sets and do some calculations\Data\projected data"
+historical_data_path = r"historical_data"
+projected_data_path = r"projected data"
 
 file_1 = historical_data_path + '/' + 'tasmax_day_HadGEM2-ES_historical_r1i1p1_19500101-19501231.LOCA_2016-04-02.16th.CA_NV.nc'
 fh = Dataset(file_1, mode='r')
